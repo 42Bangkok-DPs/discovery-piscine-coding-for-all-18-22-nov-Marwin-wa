@@ -3,7 +3,7 @@ def checkmate(board):
     board = board.strip().split('\n')
     size = len(board)
     
-        king_pos = None
+    king_pos = None
     for i in range(size):
         for j in range(size):
             if board[i][j] == 'K':
